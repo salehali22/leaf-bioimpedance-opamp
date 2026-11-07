@@ -68,8 +68,8 @@ The op-amp is the core of the front-end: it buffers the small voltage picked up 
 A classic **two-stage Miller op-amp** with a PMOS input pair, built from the transistor names Q1 to Q9.
 
 <p align="center">
-  <img src="figures/04-full-amplifier/schematic-operating-point.png" width="760" alt="Full amplifier schematic with DC operating point">
-  <br><sub>Full amplifier in Cadence Virtuoso, with the DC operating point annotated.</sub>
+  <img src="figures/04-full-amplifier/full-amplifier-final.png" width="820" alt="Final amplifier schematic with Miller compensation and nulling resistor Q9">
+  <br><sub>Final amplifier in Cadence Virtuoso: Miller capacitor C3 (C<sub>c</sub> = 1 pF) in series with nulling resistor Q9 between Vout1 and Vout2, load C0 = 1 pF.<br>R0 (1 GΩ) and C2 (1 F) around Q1 form the open-loop AC test bench: closed loop at DC, open loop at AC.</sub>
 </p>
 
 ```mermaid
